@@ -1,0 +1,29 @@
+# GitHub Repository Creator Configuration
+
+# Your GitHub personal access token (required)
+# Create one at: https://github.com/settings/tokens
+# Needs 'repo' scope permissions
+github_token: "your_github_personal_access_token_here"
+
+# Repository name (required)
+repo_name: "my-awesome-project"
+
+# Repository visibility (optional, default: false)
+private: false
+
+# Repository description (optional)
+description: "My awesome new project created with GitHub Repo Creator"
+
+# Repository website URL (optional)
+# homepage: "https://example.com"
+
+# Repository features (all optional)
+has_issues: true
+has_wiki: true
+auto_init: false  # Whether to create an initial commit with README
+
+# Specify gitignore type (optional)
+# Common values: Python, Node, Java, Ruby, Go, Rust, etc.
+gitignore_type: "Python"
+
+
